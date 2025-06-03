@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Formulário de Acompanhamento</h1>
+    <form>
+      <h2>1. Espirituais:</h2>
+  
+      <label for="orar">Pelo que posso orar por você?</label><br>
+      <textarea id="orar" name="orar" rows="2" cols="50"></textarea><br><br>
+  
+      <label for="desafios">Quais desafios você enfrenta em sua caminhada espiritual?</label><br>
+      <textarea id="desafios" name="desafios" rows="2" cols="50"></textarea><br><br>
+  
+      <label for="apoio">Você se sente apoiado espiritualmente pela igreja?</label><br>
+      <select id="apoio" name="apoio">
+        <option value="">Selecione uma opção</option>
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+        <option value="Parcialmente">Parcialmente</option>
+      </select><br><br>
+  
+      <h2>2. Emocionais e de Apoio:</h2>
+  
+      <label for="visita">Gostaria de uma visita pastoral?</label><br>
+      <textarea id="visita" name="visita" rows="2" cols="50"></textarea><br><br>
+  
+      <h2>3. Sociais e de Conexão:</h2>
+  
+      <label for="melhorar">O que poderia melhorar para que você se sinta mais incluído?</label><br>
+      <textarea id="melhorar" name="melhorar" rows="2" cols="50"></textarea><br><br>
+  
+      <label for="ministerios">Que tipos de atividades ou ministérios você gostaria de participar na igreja?</label><br>
+      <textarea id="ministerios" name="ministerios" rows="2" cols="50"></textarea><br><br>
+  
+      <h2>4. Materiais e Práticas:</h2>
+  
+      <label for="necessidade">Existe alguma necessidade prática que você gostaria de compartilhar?</label><br>
+      <textarea id="necessidade" name="necessidade" rows="2" cols="50"></textarea><br><br>
+  
+      <h2>5. Feedback:</h2>
+  
+      <label for="feedback">Pode nos dar um Feedback dos Cultos da Igreja da FAP?</label><br>
+      <textarea id="feedback" name="feedback" rows="2" cols="50"></textarea><br><br>
+  
+      <label for="avaliacao">De 1 a 5, como você avalia os cultos?</label><br>
+      <input type="number" id="avaliacao" name="avaliacao" min="1" max="5"><br><br>
+  
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

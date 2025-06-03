@@ -1,0 +1,95 @@
+/*CSS DO FORMULARIO
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+  background-color: #141414; /* Fundo Netflix */
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+/* Container do formulário */
+.form-container {
+  background-color: #1c1c1c;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 0 25px rgba(229, 9, 20, 0.3);
+}
+
+/* Título principal */
+.form-container h1 {
+  text-align: center;
+  color: #e50914;
+  margin-bottom: 30px;
+}
+
+/* Subtítulos */
+form h2 {
+  color: #ffffff;
+  margin: 25px 0 10px;
+  font-size: 20px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Campos de texto, área e número */
+textarea,
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Botão estilo Netflix */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b20710;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  form h2 {
+    font-size: 18px;
+  }
+}
