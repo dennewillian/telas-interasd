@@ -73,8 +73,9 @@ input {
 .input-div input[type="password"] {
   width: 100%;
   padding: 12px;
-  background: white;
+  background: #222222;
   border: none;
+  color: lightgrey;
   border-radius: 4px;
   font-size: 14px;
 }
